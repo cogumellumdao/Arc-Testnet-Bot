@@ -44,37 +44,42 @@ Or you can simply click the `Windows Key` and type `cmd`.
 
 Now, let's download (clone) the files from GitHub.
 
-1.  In the terminal you just opened, create a folder for the bot and enter it. You can copy and paste these commands:
-
-    ```bash
-    mkdir arc-bot-project
-    cd arc-bot-project
-    ```
-<img width="1340" height="676" alt="image" src="https://github.com/user-attachments/assets/8dff7596-28b0-408f-a52b-839c8eb2a4a1" />
-    
-2.  Clone the GitHub repository:
+1.  Clone the GitHub repository:
 
     ```bash
     git clone https://github.com/cogumellumdao/Arc-Testnet-Bot.git .
     ```
+<img width="927" height="179" alt="image" src="https://github.com/user-attachments/assets/209d17b0-6c77-48aa-a503-1f3789f1e91f" />
+
+2.  In the terminal you just opened, create a folder for the bot and enter it. You can copy and paste these commands:
+
+    ```bash
+    cd Arc-Testnet-Bot
+    ```
+    <img width="502" height="108" alt="image" src="https://github.com/user-attachments/assets/8b33c545-a6b2-44b1-8503-0153f5b0925b" />
+
 
     *(Note: The `.` at the end downloads the files directly into your current folder.)*
+    <img width="1203" height="327" alt="image" src="https://github.com/user-attachments/assets/8dd02af3-c14f-4bc9-a9dd-4a729cbfff39" />
+
 
 ### 3️⃣ Step 3: Install Dependencies
 
 The bot needs some libraries (packages) to work.
 
-1.  Still inside the `arc-bot-project` folder in your terminal, run the following command to install everything needed:
+1.  Still inside the `Arc-Testnet-Bot` folder in your terminal, run the following command to install everything needed:
     ```bash
     npm install ethers readline fs https http https-proxy-agent dotenv
     ```
+<img width="1009" height="179" alt="image" src="https://github.com/user-attachments/assets/829b2b3d-98ce-44cd-807e-9acc4354231f" />
+
 2.  Wait for the installation to complete.
 
 ### 4️⃣ Step 4: Configure Your Wallets
 
 This is the most important part. You need to tell the bot which wallets to use.
 
-1.  In the same folder where the bot files are (e.g., `arc-bot-project`), create a new text file named `pv.txt`.
+1.  In the same folder where the bot files are (e.g., `Arc-Testnet-Bot`), create a new text file named `pv.txt`.
 
 2.  Open this `pv.txt` file with a text editor (like Notepad).
 
@@ -88,16 +93,20 @@ This is the most important part. You need to tell the bot which wallets to use.
     0xAnotherSuperSecretPrivateKey456:MyWallet2
     0xOneMoreKey789abc:JohnsWallet
     ```
+<img width="646" height="309" alt="image" src="https://github.com/user-attachments/assets/41924f4d-57d4-4e68-8d89-999983565aa2" />
 
-    *(**Optional - With Proxy**): If you want to use proxies, the format is `PRIVATE_KEY:NAME:PROXY_IP:PROXY_PORT`*
+    *(**Optional - With Proxy**): If you want to use proxies, the format is `45.3.xxx.xxx:xx`*
 
     ```
-    0xYourVeryLongPrivateKey123:MyWallet1:192.168.1.1:8080
+    45.3.xxx.xxx:xx
+    104.xxx.xxx.xx:xxxx
+    154.xxx.xxx.xx:xxx
     ```
 
     *You can also use a `proxy.txt` file (see the advanced configuration section).*
 
 -----
+<img width="665" height="265" alt="image" src="https://github.com/user-attachments/assets/189500af-b2cb-4485-8333-2f832fd7915d" />
 
 ## 🎯 How to Use (Recommended Flow)
 
@@ -117,6 +126,7 @@ Your wallets need funds to pay for "gas" (transaction fees) on the testnet.
 5.  Select the **Arc Testnet** network, paste your wallet address, and request the tokens.
 6.  The Circle faucet has a limit (usually 1 request per hour per IP/address).
 7.  Go back to the bot, press Enter to see the next wallet, and repeat the process for all of them.
+<img width="1748" height="921" alt="image" src="https://github.com/user-attachments/assets/f1845c1e-6a6d-4e4a-a728-c37dcade25e8" />
 
 ### 2\. Run the Bot (AUTO ALL)
 
@@ -210,16 +220,6 @@ const CONFIG = {
   * **NEVER** share your `pv.txt` file or your private keys with anyone.
   * The author is not responsible for any lost funds. This bot is intended for use on the **TESTNET** only.
   * If you use GitHub to store your code, add `pv.txt` and `proxy.txt` to your `.gitignore` file to avoid accidentally uploading them to the internet.
-
-**Create a `.gitignore` file with the following content:**
-
-```
-pv.txt
-proxy.txt
-.env
-node_modules/
-```
-
 ## ❓ Troubleshooting
 
   * **Error: "Limit exceeded" at the faucet**
