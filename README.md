@@ -93,7 +93,7 @@ This is the most important part. You need to tell the bot which wallets to use.
     0xAnotherSuperSecretPrivateKey456:MyWallet2
     0xOneMoreKey789abc:JohnsWallet
     ```
-<img width="646" height="309" alt="image" src="https://github.com/user-attachments/assets/41924f4d-57d4-4e68-8d89-999983565aa2" />
+<img width="749" height="283" alt="image" src="https://github.com/user-attachments/assets/1de218e2-4a21-4e9a-b146-58555eeb9923" />
 
     *(**Optional - With Proxy**): If you want to use proxies, the format is `45.3.xxx.xxx:xx`*
 
@@ -106,7 +106,7 @@ This is the most important part. You need to tell the bot which wallets to use.
     *You can also use a `proxy.txt` file (see the advanced configuration section).*
 
 -----
-<img width="665" height="265" alt="image" src="https://github.com/user-attachments/assets/189500af-b2cb-4485-8333-2f832fd7915d" />
+<img width="635" height="309" alt="image" src="https://github.com/user-attachments/assets/fa3ab79d-faed-44f0-a8e5-e607e0cb5ff4" />
 
 ## 🎯 How to Use (Recommended Flow)
 
