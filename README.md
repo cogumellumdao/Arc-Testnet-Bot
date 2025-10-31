@@ -1,4 +1,4 @@
-<img width="1200" height="480" alt="Banner para twitch retrô e divertido em pixels rosa e amarelo" src="https://github.com/user-attachments/assets/16349e06-a74c-4615-a510-7ac4fa1dfd3d" />
+<img width="2400" height="268" alt="yooo (1)" src="https://github.com/user-attachments/assets/3735d26c-e1dc-4aa2-80e6-6462db746c21" />
 
 # 🚀 Arc Testnet Bot
 
@@ -35,13 +35,10 @@ You need a command-line interface to run the bot.
   * **On Windows**:
     1.  Press the `Windows Key + R` on your keyboard.
     2.  Type `cmd` and press `Enter`.
-  * **On macOS**:
-    1.  Open "Launchpad" or press `Cmd + Space`.
-    2.  Type `Terminal` and press `Enter`.
-  * **On Linux**:
-    1.  Press `Ctrl + Alt + T` or search for "Terminal" in your applications menu.
+  <img width="1654" height="822" alt="image" src="https://github.com/user-attachments/assets/9fad2253-aa80-4104-a5e7-669732c7cc7b" />
 
-Ou pode simplesmente clicar na `Tecla Windows` e digitar `cmd`
+Or you can simply click the `Windows Key` and type `cmd`.
+<img width="1194" height="769" alt="image" src="https://github.com/user-attachments/assets/7862d62e-4854-4166-9298-d83ef95dcfac" />
 
 ### 2️⃣ Step 2: Download the Bot Files
 
@@ -53,7 +50,8 @@ Now, let's download (clone) the files from GitHub.
     mkdir arc-bot-project
     cd arc-bot-project
     ```
-
+<img width="1340" height="676" alt="image" src="https://github.com/user-attachments/assets/8dff7596-28b0-408f-a52b-839c8eb2a4a1" />
+    
 2.  Clone the GitHub repository:
 
     ```bash
